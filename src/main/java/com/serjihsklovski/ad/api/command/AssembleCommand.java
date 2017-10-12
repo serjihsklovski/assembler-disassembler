@@ -6,7 +6,7 @@ public class AssembleCommand implements Command {
 
     @Override
     public void execute(CommandLine cmd) {
-        System.out.println("DisassembleCommand!");
+        System.out.println("AssembleCommand!");
         System.out.println(cmd.getOptionValue("input"));
         System.out.println(cmd.getOptionValue("output"));
     }
